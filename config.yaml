@@ -1,0 +1,15 @@
+data:
+  benchmark_path: data/raw/benchmarks/cuad.json
+  corpus_dir: data/raw/corpus/cuad
+  cache_dir: data/index
+retrieval:
+  chunk_chars: 1200
+  overlap_chars: 200
+  top_k: 10
+  method: hybrid
+  bm25_weight: 0.55
+  tfidf_weight: 0.45
+  min_score: 0.08
+evaluation:
+  ks: [1, 3, 5, 10]
+  random_seed: 42

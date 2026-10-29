@@ -1,0 +1,2 @@
+[console_scripts]
+contract-assistant = src.cli:app
